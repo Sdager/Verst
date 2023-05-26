@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body header {
+  background-image: url(../img/Rectangle.jpg);
+  height: 1045px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body header .casd {
+  display: flex;
+  padding-left: 22%;
+  padding-right: 19%;
+}
+body header .casd .banner {
+  display: flex;
+  display: inline-block;
+}
+body header .casd .banner img {
+  padding-left: 10%;
+}
+body header .casd .banner .navigation_banner {
+  display: flex;
+  justify-content: space-around;
+}
+body header .casd .banner .navigation_banner button {
+  padding-top: 7%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  border: none;
+  background-color: transparent;
+}
+body header .casd h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+body header .casd .info {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7%;
+  justify-content: center;
+}
+body header .casd .info button {
+  background-color: #d1a954;
+  width: 20%;
+  height: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+}
+body header nav {
+  gap: 130px;
+  display: flex;
+  padding-top: 2%;
+  justify-content: center;
+  margin-bottom: 7%;
+}
+body header nav .number {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #d1a954;
+}
+body header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  list-style-type: none;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
